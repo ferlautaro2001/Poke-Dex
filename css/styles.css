@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.site-header {
+    text-align: center;
+    padding: 24px 20px 16px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.site-header h1 {
+    font-size: 1.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+.site-header .version {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+#sec1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+#sec1 > div {
+    display: grid;
+    place-items: center;
+    background-color: #1a1a1a;
+    border: 2px solid springgreen;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#sec1 > div:hover {
+    border-color: #00ff80;
+    box-shadow: 0 0 45px rgb(248, 250, 249);
+    transform: scale(1.10);
+}
+
+h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.pokeimg {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+.type{
+    text-transform: capitalize;
+}
